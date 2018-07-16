@@ -14,6 +14,7 @@ binding.pry
 
 params[:team][:member].each do |details|
   Member.new(details)
+  binding.pry
 end
 
 @members = Member.all
