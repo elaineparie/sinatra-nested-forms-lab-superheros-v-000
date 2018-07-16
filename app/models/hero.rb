@@ -1,7 +1,7 @@
-class Hero
+class Member
   attr_reader :name, :power, :bio
 
-  HEROS = []
+  MEMBERS = []
 
   def initialize(args)
     @name = args[:name]
@@ -11,6 +11,6 @@ class Hero
   end
 
   def self.all
-    HEROS
+    MEMBERS
   end
 end
