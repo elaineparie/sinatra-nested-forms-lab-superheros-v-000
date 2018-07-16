@@ -17,7 +17,7 @@ params[:team][:hero].each do |details|
   binding.pry
 end
 
-@heros = Hero.all
+@members = Member.all
 binding.pry
       erb :team
     end
