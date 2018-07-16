@@ -15,7 +15,7 @@ params[:team][:hero].each do |details|
   Hero.new(details)
 end
 
-@herps = Hero.all
+@hero = Hero.all
       erb :team
     end
 
